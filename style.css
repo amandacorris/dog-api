@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+    content-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 10em;
+}
+
+.hidden {
+    display: none;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.js-show-dog, .js-show-breed {
+
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif
+    font-weight: bold;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
